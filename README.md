@@ -34,6 +34,7 @@ The main menu of the program allows you to choose which algorithm you would like
 <img src="https://i.imgur.com/D8fIfSZ.png" />
 <br><br>
 After choosing an option, answer the given prompts and the program will run, displaying results at the end. The following is an example of the summary after running a performance run with 500 repetitions.
+
 <img src="https://i.imgur.com/FydbUB2.png" />
 
 ## Acknowledgements

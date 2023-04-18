@@ -6,13 +6,13 @@
 
 using std::cout, std::cin, std::cerr;
 
-int main ()
+int main()
 {
     system("clear");
     int option{};
     bool isInvalidOption{};
-    cout << "Test bed for search and sorting algorithms\n"
-            "------------------------------------------------\n";
+    cout << "Test bed for search algorithms\n"
+            "-------------------------------\n";
 
     do
     {
@@ -22,18 +22,18 @@ int main ()
 
         switch (option)
         {
-            case 1:
-                runSearch(sequential_search, "Sequential search");
-                break;
-            case 2:
-                runSearch(binary_search, "Binary search");
-                break;
-            case 3:
-                doPerformanceRun();
-                break;
-            default:
-                isInvalidOption = true;
-                cerr << "ERROR: Invalid option.\n\n";
+        case 1:
+            runSearch(sequential_search, "Sequential search");
+            break;
+        case 2:
+            runSearch(binary_search, "Binary search");
+            break;
+        case 3:
+            doPerformanceRun();
+            break;
+        default:
+            isInvalidOption = true;
+            cerr << "ERROR: Invalid option.\n\n";
         }
     } while (isInvalidOption);
 

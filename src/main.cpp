@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 
 #include "../include/utility_functions.h"
 #include "../include/search_options.h"
